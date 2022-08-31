@@ -1,0 +1,44 @@
+/* Header
+------------------------------------------------------------*/
+.c-header {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background: rgba(255, 255, 255, 0.9);
+
+    &__logo {
+        display: inline-block;
+
+        h1 {
+            font-size: 1.8rem;
+            font-weight: 600;
+        }
+    }
+
+    
+}   
+/* Main menu
+------------------------------------------------------------*/
+.c-gnav {
+    &__item {
+        display: inline-block;
+        text-align: center;
+        padding: 28px 0;
+    }
+
+    &__item + &__item {
+        margin-left: 50px;
+    }
+
+    &__link {
+        font-size: 1.6rem;
+        font-weight: 300;
+    }
+  
+    &__sublist {
+        display: none;
+    }
+   
+}
